@@ -32,4 +32,17 @@ namespace Common.Benchmark
 				JObject action = new JObject
 				{
 					["name"] = actionData.Key.GetType().Name,
-					["count"] = actionData.Va
+					["count"] = actionData.Value
+				};
+
+				actions.Add(action);
+			}
+			
+			jsonRoot["actions"] = actions;
+
+			jsonRoot["total_actions"] = TotalActionsPlayed;
+			jsonRoot["is_stuck"] = IsStuck;
+			
+			File.WriteAllText(path, jsonRoot.ToString());
+		}
+	
