@@ -14,3 +14,15 @@ namespace Common.Benchmark
 
 		public Dictionary<AGameAction<TGameState>, long> ActionsPlayed { get; } = new Dictionary<AGameAction<TGameState>, long>();
 		public long TotalActionsPlayed { get; set; }
+
+		public bool IsStuck { get; set; }
+
+		public void ToJson(string path)
+		{
+			JObject jsonRoot = new JObject();
+			
+			jsonRoot["training_time"] = TrainingTime;
+			jsonRoot["evaluation_count"] = Evaluations;
+			jsonRoot["iterations"] = new JArray(Iterations);
+
+			JAr
