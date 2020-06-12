@@ -25,4 +25,11 @@ namespace Common.Benchmark
 			jsonRoot["evaluation_count"] = Evaluations;
 			jsonRoot["iterations"] = new JArray(Iterations);
 
-			JAr
+			JArray actions = new JArray();
+
+			foreach (KeyValuePair<AGameAction<TGameState>,long> actionData in ActionsPlayed)
+			{
+				JObject action = new JObject
+				{
+					["name"] = actionData.Key.GetType().Name,
+					["count"] = actionData.Va
