@@ -45,4 +45,5 @@ namespace Common.Benchmark
 			
 			File.WriteAllText(path, jsonRoot.ToString());
 		}
-	
+	}
+}
