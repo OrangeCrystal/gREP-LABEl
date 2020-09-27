@@ -1,1 +1,9 @@
-%YA
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8699751045289586054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVer
