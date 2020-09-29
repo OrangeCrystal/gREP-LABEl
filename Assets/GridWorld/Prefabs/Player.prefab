@@ -6,4 +6,13 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVer
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7607522272244499979}
+  - component: {fileID: 7445751255984812960}
+  - component: {fileID: 1823154169825122802}
+  - component: {fileID: -6072974238764751057}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  
