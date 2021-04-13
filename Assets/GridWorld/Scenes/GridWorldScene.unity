@@ -282,4 +282,13 @@ GameObject:
 --- !u!81 &926299990
 AudioListener:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceOb
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926299989}
+  m_Enabled: 1
+--- !u!20 &926299991
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID:
