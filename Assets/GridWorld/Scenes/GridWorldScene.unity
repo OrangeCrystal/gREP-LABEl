@@ -413,4 +413,12 @@ Transform:
 --- !u!1 &1150109897
 GameObject:
   m_ObjectHideFlags: 0
-  m_C
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1150109901}
+  - component: {fileID: 1150109900}
+  - component: {fileID: 1150109899}
+  - comp
