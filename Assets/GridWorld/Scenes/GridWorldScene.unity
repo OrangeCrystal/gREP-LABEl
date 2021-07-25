@@ -514,4 +514,13 @@ RectTransform:
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1367691743}
+  - component: {fileID: 1367691745}
+  - component: {fileID: 1367691744}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: U
