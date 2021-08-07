@@ -593,4 +593,14 @@ CanvasRenderer:
 --- !u!1 &1410447453
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1410447454}
+  - component: {fileID: 1410447456}
+  - component: {fileID: 1410447455}
+  m_Layer: 5
+  m_Name: Text
+  m_
