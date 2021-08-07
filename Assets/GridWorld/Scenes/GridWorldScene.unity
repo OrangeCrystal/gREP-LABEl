@@ -585,4 +585,12 @@ MonoBehaviour:
 --- !u!222 &1367691745
 CanvasRenderer:
   m_ObjectHideFlags: 0
-  m
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367691742}
+  m_CullTransparentMesh: 1
+--- !u!1 &1410447453
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID
