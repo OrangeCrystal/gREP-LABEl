@@ -797,4 +797,13 @@ MonoBehaviour:
 --- !u!222 &1586813316
 CanvasRenderer:
   m_ObjectHideFlags: 0
-  m_Correspondin
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586813312}
+  m_CullTransparentMesh: 1
+--- !u!1001 &8536300875334480924
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modifica
