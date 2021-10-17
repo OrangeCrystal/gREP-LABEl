@@ -21,4 +21,10 @@ namespace GridWorld.Game
         public GameStatus Status => this.Grid[this.AgentPos.x, this.AgentPos.y] switch
         {
             TileType.Hole => GameStatus.Lose,
-            TileType.Goal => Gam
+            TileType.Goal => GameStatus.Win,
+            _ => GameStatus.Playing
+        };
+
+        public bool Equals(GameState other) => other != null && this.AgentPos == other.AgentPos;
+    }
+}
