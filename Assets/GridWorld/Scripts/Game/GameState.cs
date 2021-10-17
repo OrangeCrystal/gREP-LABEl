@@ -13,4 +13,12 @@ namespace GridWorld.Game
         {
             return new GameState
             {
-                Grid = G
+                Grid = Grid,
+                AgentPos = AgentPos,
+            };
+        }
+
+        public GameStatus Status => this.Grid[this.AgentPos.x, this.AgentPos.y] switch
+        {
+            TileType.Hole => GameStatus.Lose,
+            TileType.Goal => Gam
