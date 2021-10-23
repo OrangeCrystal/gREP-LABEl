@@ -90,3 +90,32 @@ namespace GridWorld
         }
 
         public void ApplyAction(AGameAction<GameState> action)
+        {
+            if (GameState.Status == GameStatus.Playing)
+                GameState = action.Apply(GameState.Copy());
+        }
+
+        public void Update()
+        {
+            Vector2Int agentPos = GameState.AgentPos;
+            _player.transform.position = new Vector3(agentPos.x, _player.transform.position.y, agentPos.y);
+            GameStatus status = GameState.Status;
+
+            if (status != GameStatus.Playing && !_finished)
+            {
+                _finished = true;
+                if (status == GameStatus.Win)
+                {
+                    displayText.SetActive(true);
+                }
+                else if (status == GameStatus.Lose)
+                {
+                    displayText.GetComponent<Text>().text = "Agent lose";
+                    displayText.SetActive(true);
+                }
+
+                _agent?.StatsRecorder.GetResult().ToJson(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "/RL_stats_result.json");
+            }
+        }
+    }
+}
