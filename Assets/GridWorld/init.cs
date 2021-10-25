@@ -16,4 +16,14 @@ namespace GridWorld
         // Start is called before the first frame update
         void Start()
         {
-            Gam
+            GameObject gameManager = Instantiate(GameManager);
+            gameManager.GetComponent<GameManager>().displayText = displayText;
+        }
+
+        public void ToInitScene()
+        {
+            SceneManager.LoadScene(0);
+        }
+
+    }
+}
