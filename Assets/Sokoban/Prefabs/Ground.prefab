@@ -5,4 +5,12 @@ GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
-  m
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8778490780926252515}
+  - component: {fileID: 8688790691766990134}
+  - component: {fileID: 3817430177513877108}
+  m_Layer: 0
+  m_Name: Ground
+  
