@@ -13,4 +13,12 @@ GameObject:
   - component: {fileID: 3817430177513877108}
   m_Layer: 0
   m_Name: Ground
-  
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8778490780926252515
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
