@@ -62,4 +62,11 @@ MeshRenderer:
   - {fileID: 2100000, guid: 4096cdcd834b4c64297526bdbc247d0a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
-    subMe
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
