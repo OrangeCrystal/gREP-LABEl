@@ -79,4 +79,5 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_Sor
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
