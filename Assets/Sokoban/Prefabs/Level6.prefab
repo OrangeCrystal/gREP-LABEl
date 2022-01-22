@@ -10,9 +10,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8783652419154360562}
-  - component: {fileID: 4968847719759219836}
+  - component: {fileID: 4900969256067345410}
   m_Layer: 0
-  m_Name: Level5
+  m_Name: Level6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32,7 +32,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4968847719759219836
+--- !u!114 &4900969256067345410
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,6 +41,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 3892230279260797771}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c42163b2619b4bf3bd3cfae38e2bf72a, type: 3}
+  m_Script: {fileID: 11500000, guid: 3104b7b36bd71f949a3aa7394e54400a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
