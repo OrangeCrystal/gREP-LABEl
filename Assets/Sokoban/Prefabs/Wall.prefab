@@ -4,4 +4,11 @@
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_Pr
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1282394757138085177}
+  - component: {fileID: 1282394757138085178}
+  - component: {fileID: 1282394757138085179}
+  - component: {fileID: 1282394757
