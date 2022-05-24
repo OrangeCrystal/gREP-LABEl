@@ -85,4 +85,12 @@ TextureImporter:
     internalID: 0
     vertices: []
     indices: 
-    edge
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
