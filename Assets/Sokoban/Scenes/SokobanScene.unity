@@ -218,4 +218,13 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_Stat
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &452557507
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452557506}
+  m_LocalRotation: {x:
