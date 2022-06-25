@@ -269,4 +269,13 @@ MonoBehaviour:
     m_MaxSize: 50
     m_Alignment: 1
     m_AlignByGeometry: 0
-    m_RichTe
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Agent wins!
+--- !u!222 &452557509
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0
