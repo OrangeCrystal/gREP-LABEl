@@ -620,4 +620,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b05d7d39e7078840999672b02d5a91a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameManager: {fileID: 745771371301328244, guid: 7
+  GameManager: {fileID: 745771371301328244, guid: 7bff52fbef43dea46a025275457926f3, type: 3}
+  displayText: {fileID: 452557506}
+--- !u!4 &1804052647
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fil
