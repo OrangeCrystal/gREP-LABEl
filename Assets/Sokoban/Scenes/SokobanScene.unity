@@ -644,4 +644,14 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - compon
+  - component: {fileID: 1847370360}
+  - component: {fileID: 1847370359}
+  - component: {fileID: 1847370358}
+  - component: {fileID: 1847370357}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m
