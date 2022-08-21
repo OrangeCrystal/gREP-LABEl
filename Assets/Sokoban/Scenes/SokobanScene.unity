@@ -807,3 +807,10 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 745771371301328242, guid: 7bff52fbef43dea46a025275457926f3, type: 3}
+      propertyPath: displayText
+      value: 
+      objectReference: {fileID: 452557506}
+    - target: {fileID: 745771371301328
