@@ -813,4 +813,9 @@ PrefabInstance:
       propertyPath: displayText
       value: 
       objectReference: {fileID: 452557506}
-    - target: {fileID: 745771371301328
+    - target: {fileID: 745771371301328243, guid: 7bff52fbef43dea46a025275457926f3, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 745771371301328243, guid: 7bff52fbef43dea46a025275457926f3, type: 3}
+      propertyPath
