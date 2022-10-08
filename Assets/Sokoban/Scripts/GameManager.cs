@@ -11,4 +11,12 @@ using UnityEngine.UI;
 namespace Sokoban
 {
     public class GameManager : MonoBehaviour
-    
+    {
+        public List<TileToPrefab> TileToPrefabs;
+        public GameObject playerPrefab;
+        public GameObject cratePrefab;
+        public ALevelPreset LevelPreset;
+        public GameObject displayText;
+        public int agentIndex;
+
+        pr
