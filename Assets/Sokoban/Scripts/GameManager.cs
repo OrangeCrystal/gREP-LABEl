@@ -19,4 +19,10 @@ namespace Sokoban
         public GameObject displayText;
         public int agentIndex;
 
-        pr
+        private PlayerScript _player;
+        private List<GameObject> _crateInstances = new List<GameObject>();
+        private ALevelPreset _levelPreset;
+        private AAgent<GameState, GameRules> _agent;
+        private int _playFrames = 0;
+
+        private boo
