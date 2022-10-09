@@ -25,4 +25,13 @@ namespace Sokoban
         private AAgent<GameState, GameRules> _agent;
         private int _playFrames = 0;
 
-        private boo
+        private bool _finished = false;
+
+        public readonly GameRules GameRules = new GameRules();
+
+        /// <summary>
+        /// Stocke l'état du jeu actuel
+        /// </summary>
+        public GameState GameState { get; private set; }
+
+        pr
