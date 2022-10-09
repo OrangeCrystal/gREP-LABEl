@@ -34,4 +34,9 @@ namespace Sokoban
         /// </summary>
         public GameState GameState { get; private set; }
 
-        pr
+        private void Start()
+        {
+            _levelPreset = Instantiate(LevelPreset, new Vector3(0, 0, 0), Quaternion.identity);
+            for (int x = 0; x < _levelPreset.Grid.GetLength(0); ++x)
+            {
+                for (in
