@@ -39,4 +39,10 @@ namespace Sokoban
             _levelPreset = Instantiate(LevelPreset, new Vector3(0, 0, 0), Quaternion.identity);
             for (int x = 0; x < _levelPreset.Grid.GetLength(0); ++x)
             {
-                for (in
+                for (int y = 0; y < _levelPreset.Grid.GetLength(1); ++y)
+                {
+                    TileType tileType = _levelPreset.Grid[x, y];
+                    foreach (var tile in TileToPrefabs)
+                    {
+
+         
