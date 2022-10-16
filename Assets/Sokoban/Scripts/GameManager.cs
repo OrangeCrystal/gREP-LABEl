@@ -45,4 +45,10 @@ namespace Sokoban
                     foreach (var tile in TileToPrefabs)
                     {
 
-         
+                        if (tile.TileType == tileType)
+                        {
+                            Instantiate(tile.Prefab, new Vector3(x, tile.Prefab.transform.position.y, y), Quaternion.identity);
+                        }
+                    }
+                }
+  
