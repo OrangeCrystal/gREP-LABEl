@@ -51,4 +51,8 @@ namespace Sokoban
                         }
                     }
                 }
-  
+            }
+
+            foreach (var position in _levelPreset.CrateStartPosition)
+            {
+                _crateInstances.Add(Instantiate(cratePrefab, new Vector3(position.x, cratePrefab.transform.position.y
