@@ -58,4 +58,11 @@ namespace Sokoban
                 _crateInstances.Add(Instantiate(cratePrefab, new Vector3(position.x, cratePrefab.transform.position.y, position.y),
                     Quaternion.identity));
             }
-            _player = Instantiate(playerPrefab, new Vector3(_levelPreset.StartPosition.x, playerPrefab.transform.position.y, _levelPreset.StartPosition.y), Quaternion.identity).GetComponent<PlayerScript>(
+            _player = Instantiate(playerPrefab, new Vector3(_levelPreset.StartPosition.x, playerPrefab.transform.position.y, _levelPreset.StartPosition.y), Quaternion.identity).GetComponent<PlayerScript>();
+            _player.GameManager = this;
+            GameState = new GameState
+            {
+                Grid = _levelPreset.Grid,
+                AgentPos = _levelPreset.StartPosition,
+                CratePos = _levelPreset.CrateStartPosition
+     
