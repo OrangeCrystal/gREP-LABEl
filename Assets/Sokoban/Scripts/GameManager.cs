@@ -55,4 +55,7 @@ namespace Sokoban
 
             foreach (var position in _levelPreset.CrateStartPosition)
             {
-                _crateInstances.Add(Instantiate(cratePrefab, new Vector3(position.x, cratePrefab.transform.position.y
+                _crateInstances.Add(Instantiate(cratePrefab, new Vector3(position.x, cratePrefab.transform.position.y, position.y),
+                    Quaternion.identity));
+            }
+            _player = Instantiate(playerPrefab, new Vector3(_levelPreset.StartPosition.x, playerPrefab.transform.position.y, _levelPreset.StartPosition.y), Quaternion.identity).GetComponent<PlayerScript>(
