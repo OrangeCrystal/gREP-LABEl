@@ -65,4 +65,10 @@ namespace Sokoban
                 Grid = _levelPreset.Grid,
                 AgentPos = _levelPreset.StartPosition,
                 CratePos = _levelPreset.CrateStartPosition
-     
+            };
+
+            switch (agentIndex)
+            {
+                case 0:
+                    this._agent = new MDPPolicyAgent<GameState, GameRules>(this.GameRules,  new BaseAgentPlugin(), this.GameState);
+                   
