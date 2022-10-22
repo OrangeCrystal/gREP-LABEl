@@ -85,4 +85,10 @@ namespace Sokoban
             Camera.main.transform.position = new Vector3(width / 2.0f, 10, height / 2.0f);
         }
 
-        public v
+        public void FixedUpdate()
+        {
+            if (GameState.Status == GameStatus.Playing && this._playFrames > 30)
+            {
+                if (_agent != null)
+                {
+                    AGameAction<GameState> action = this.
