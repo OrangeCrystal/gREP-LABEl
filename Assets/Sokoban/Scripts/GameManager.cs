@@ -77,3 +77,12 @@ namespace Sokoban
                     break;
                 case 2:
                     break;
+            }
+
+            int width = GameState.Grid.GetLength(0);
+            int height = GameState.Grid.GetLength(1);
+
+            Camera.main.transform.position = new Vector3(width / 2.0f, 10, height / 2.0f);
+        }
+
+        public v
