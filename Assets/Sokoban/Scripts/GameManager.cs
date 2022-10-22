@@ -71,4 +71,9 @@ namespace Sokoban
             {
                 case 0:
                     this._agent = new MDPPolicyAgent<GameState, GameRules>(this.GameRules,  new BaseAgentPlugin(), this.GameState);
-                   
+                    break;
+                case 1:
+                    this._agent = new MDPValueAgent<GameState, GameRules>(this.GameRules, new BaseAgentPlugin(), this.GameState);
+                    break;
+                case 2:
+                    break;
