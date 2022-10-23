@@ -97,4 +97,15 @@ namespace Sokoban
                 }
                 this._playFrames = 0;
             }
-            ++this._playFr
+            ++this._playFrames;
+        }
+
+        public void ApplyAction(AGameAction<GameState> action)
+        {
+            GameState = action.Apply(GameState.Copy());
+        }
+
+        public void Update()
+        {
+            Vector2Int agentPos = GameState.AgentPos;
+            _player.transfor
