@@ -108,4 +108,9 @@ namespace Sokoban
         public void Update()
         {
             Vector2Int agentPos = GameState.AgentPos;
-            _player.transfor
+            _player.transform.position = new Vector3(agentPos.x, _player.transform.position.y, agentPos.y);
+
+            for (int i = 0; i < GameState.CratePos.Length; ++i)
+            {
+                _crateInstances[i].transform.position = new Vector3(GameState.CratePos[i].x,
+        
