@@ -91,4 +91,10 @@ namespace Sokoban
             {
                 if (_agent != null)
                 {
-                    AGameAction<GameState> action = this.
+                    AGameAction<GameState> action = this._agent.GetAction(this.GameState);
+                    this.ApplyAction(action);
+                    _agent?.StatsRecorder.ActionPlayed(action);
+                }
+                this._playFrames = 0;
+            }
+            ++this._playFr
