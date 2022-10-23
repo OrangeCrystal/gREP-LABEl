@@ -113,4 +113,10 @@ namespace Sokoban
             for (int i = 0; i < GameState.CratePos.Length; ++i)
             {
                 _crateInstances[i].transform.position = new Vector3(GameState.CratePos[i].x,
-        
+                    _crateInstances[i].transform.position.y, GameState.CratePos[i].y);
+            }
+            
+            if (GameState.Status != GameStatus.Playing && !_finished)
+            {
+                _finished = true;
+                if (Gam
