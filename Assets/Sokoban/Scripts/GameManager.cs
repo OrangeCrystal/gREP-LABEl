@@ -119,4 +119,10 @@ namespace Sokoban
             if (GameState.Status != GameStatus.Playing && !_finished)
             {
                 _finished = true;
-                if (Gam
+                if (GameState.Status == GameStatus.Win)
+                {
+                    displayText.SetActive(true);
+                }
+                else if (GameState.Status == GameStatus.Lose)
+                {
+                    displayTe
