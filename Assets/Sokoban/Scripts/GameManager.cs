@@ -125,4 +125,8 @@ namespace Sokoban
                 }
                 else if (GameState.Status == GameStatus.Lose)
                 {
-                    displayTe
+                    displayText.GetComponent<Text>().text = "Agent lose";
+                    displayText.SetActive(true);
+                }
+
+                _agent?.StatsRecorder.GetResult().ToJson(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "/
