@@ -129,4 +129,8 @@ namespace Sokoban
                     displayText.SetActive(true);
                 }
 
-                _agent?.StatsRecorder.GetResult().ToJson(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "/
+                _agent?.StatsRecorder.GetResult().ToJson(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "/RL_stats_result.json");
+            }
+        }
+    }
+}
