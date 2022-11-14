@@ -16,4 +16,15 @@ namespace Sokoban
 				{ TileType.Wall, TileType.Ground, TileType.Wall, TileType.Ground, TileType.Ground, TileType.Ground, TileType.Ground, TileType.Ground, TileType.Ground, TileType.Wall},
 				{ TileType.Wall, TileType.Ground, TileType.Wall, TileType.Ground, TileType.Ground, TileType.Ground, TileType.Ground, TileType.Ground, TileType.Ground, TileType.Wall},
 				{ TileType.Wall, TileType.Button, TileType.Wall, TileType.Ground, TileType.Ground, TileType.Ground, TileType.Ground, TileType.Ground, TileType.Ground, TileType.Wall},
-				{ TileType.Wall, TileType.Wall, TileType.Wall, TileType.Wall, TileType.Wall, Tile
+				{ TileType.Wall, TileType.Wall, TileType.Wall, TileType.Wall, TileType.Wall, TileType.Wall, TileType.Wall, TileType.Wall, TileType.Wall, TileType.Wall}, 
+			};
+
+			StartPosition = new Vector2Int(2, 2);
+
+			CrateStartPosition = new[]
+				{ new Vector2Int(2, 7) , 
+					new Vector2Int(3, 8), 
+					new Vector2Int(5, 5)};
+		}
+	}
+}
