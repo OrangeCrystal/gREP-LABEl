@@ -11,4 +11,5 @@ namespace Sokoban
 				{ TileType.Wall, TileType.Wall, TileType.Wall, TileType.Ground,  TileType.Ground, TileType.Ground, TileType.Wall, TileType.Wall},
 				{ TileType.Wall, TileType.Button, TileType.Ground, TileType.Ground, TileType.Ground, TileType.Ground, TileType.Wall, TileType.Wall},
 				{ TileType.Wall, TileType.Wall, TileType.Wall, TileType.Ground, TileType.Ground, TileType.Button, TileType.Wall, TileType.Wall},
-				{ Til
+				{ TileType.Wall, TileType.Button, TileType.Wall, TileType.Wall, TileType.Ground, TileType.Ground, TileType.Wall, TileType.Wall},
+				{ TileType.Wall, TileType.Ground, TileType.Wall, TileType.Ground, TileType.Button, TileType.Ground, Til
