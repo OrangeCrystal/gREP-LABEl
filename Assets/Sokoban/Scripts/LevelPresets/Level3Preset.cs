@@ -29,4 +29,5 @@ namespace Sokoban
 					new Vector2Int(6, 1), 
 					new Vector2Int(4, 4)};
 		}
-	
+	}
+}
