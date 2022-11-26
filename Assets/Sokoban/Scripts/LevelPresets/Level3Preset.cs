@@ -20,4 +20,13 @@ namespace Sokoban
 
 			StartPosition = new Vector2Int(2, 2);
 
-			C
+			CrateStartPosition = new[]
+				{ new Vector2Int(2, 3) , 
+					new Vector2Int(3, 4), 
+					new Vector2Int(6, 4), 
+					new Vector2Int(6, 3), 
+					new Vector2Int(6, 5), 
+					new Vector2Int(6, 1), 
+					new Vector2Int(4, 4)};
+		}
+	
