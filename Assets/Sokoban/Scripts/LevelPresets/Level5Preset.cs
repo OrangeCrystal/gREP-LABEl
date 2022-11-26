@@ -8,4 +8,7 @@ namespace Sokoban
         {
             Grid = new TileType[,]{
                 { TileType.Wall, TileType.Wall, TileType.Wall, TileType.Wall, TileType.Wall},
-                { TileType.Wall, TileType.Ground, TileType.Ground, TileType.Wall, TileType.Wall}
+                { TileType.Wall, TileType.Ground, TileType.Ground, TileType.Wall, TileType.Wall},
+                { TileType.Wall, TileType.Ground, TileType.Ground, TileType.Ground , TileType.Wall},
+                { TileType.Wall, TileType.Button, TileType.Ground, TileType.Ground, TileType.Wall},
+                { T
