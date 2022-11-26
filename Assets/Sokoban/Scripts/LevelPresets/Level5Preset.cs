@@ -4,4 +4,8 @@ namespace Sokoban
 {
     public class Level5Preset : ALevelPreset
     {
-        public Level5Pre
+        public Level5Preset()
+        {
+            Grid = new TileType[,]{
+                { TileType.Wall, TileType.Wall, TileType.Wall, TileType.Wall, TileType.Wall},
+                { TileType.Wall, TileType.Ground, TileType.Ground, TileType.Wall, TileType.Wall}
