@@ -19,3 +19,5 @@ namespace Sokoban
             CrateStartPosition = new[]
                 { new Vector2Int(2, 2) };
         }
+    }
+}
