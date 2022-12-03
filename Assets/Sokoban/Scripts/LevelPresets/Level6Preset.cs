@@ -6,4 +6,7 @@ namespace Sokoban
     {
         public Level6Preset()
         {
-            Gr
+            Grid = new TileType[,]{
+                { TileType.Wall, TileType.Wall, TileType.Wall, TileType.Wall, TileType.Wall},
+                { TileType.Wall, TileType.Ground, TileType.Ground, TileType.Ground, TileType.Wall},
+                { TileType.Wall, Til
