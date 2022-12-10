@@ -9,4 +9,15 @@ namespace Sokoban
     public class PlayerScript : MonoBehaviour
     {
         private PlayerAgent _agent;
-        public GameManager GameManager { g
+        public GameManager GameManager { get; set; }
+
+        private AGameAction<GameState> _nextAction;
+
+        private void Start()
+        {
+            this._agent = new PlayerAgent(this.GameManager.GameRules);
+        }
+
+        private void Update()
+        {
+            if (GameManager.GameState.Status
