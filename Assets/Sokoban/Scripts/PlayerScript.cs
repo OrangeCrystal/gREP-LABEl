@@ -20,4 +20,13 @@ namespace Sokoban
 
         private void Update()
         {
-            if (GameManager.GameState.Status
+            if (GameManager.GameState.Status != GameStatus.Playing) return;
+
+            AGameAction<GameState> action = _agent.GetAction(GameManager.GameState);
+            if (action != null)
+            {
+                _nextAction = action;
+            }
+        }
+
+ 
