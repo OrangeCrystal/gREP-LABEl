@@ -29,4 +29,13 @@ namespace Sokoban
             }
         }
 
- 
+        private void FixedUpdate()
+        {
+            if (_nextAction != null)
+            {
+                GameManager.ApplyAction(_nextAction);
+                _nextAction = null;
+            }
+        }
+    }
+}
