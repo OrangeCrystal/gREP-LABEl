@@ -14,4 +14,11 @@ namespace Sokoban
 
         public GameObject displayText;
 
+        // Start is called before the first frame update
+        void Start()
+        {
+            GameObject gameManager = Instantiate(GameManager);
+            gameManager.GetComponent<GameManager>().displayText = displayText;
+        }
+
  
