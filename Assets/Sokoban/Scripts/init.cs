@@ -21,4 +21,10 @@ namespace Sokoban
             gameManager.GetComponent<GameManager>().displayText = displayText;
         }
 
- 
+        public void ToInitScene()
+        {
+            SceneManager.LoadScene(0);
+        }
+    }
+    
+}
