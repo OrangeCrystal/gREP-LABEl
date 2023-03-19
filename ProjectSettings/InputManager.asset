@@ -248,4 +248,15 @@ InputManager:
   - serializedVersion: 3
     m_Name: Submit
     descriptiveName: 
-    descriptiv
+    descriptiveNegativeName: 
+    negativeButton: 
+    positiveButton: return
+    altNegativeButton: 
+    altPositiveButton: joystick button 0
+    gravity: 1000
+    dead: 0.001
+    sensitivity: 1000
+    snap: 0
+    invert: 0
+    type: 0
+    axis:
