@@ -31,4 +31,10 @@ Physics2DSettings:
     m_SyncDiscreteFixturesPerJob: 50
     m_SyncContinuousFixturesPerJob: 50
     m_FindNearestContactsPerJob: 100
- 
+    m_UpdateTriggerContactsPerJob: 100
+    m_IslandSolverCostThreshold: 100
+    m_IslandSolverBodyCostScale: 1
+    m_IslandSolverContactCostScale: 10
+    m_IslandSolverJointCostScale: 10
+    m_IslandSolverBodiesPerJob: 50
+    m_IslandSol
