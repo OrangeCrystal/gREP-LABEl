@@ -32,4 +32,4 @@ UnityConnectSettings:
     m_GameIds: {}
     m_GameId: 
   PerformanceReportingSettings:
-   
+    m_Enabled: 0
