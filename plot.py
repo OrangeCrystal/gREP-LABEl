@@ -19,4 +19,12 @@ def show_actions(actions):
 	action_names = []
 	action_counts = []
 	for action in actions:
-		action_names.append(action["n
+		action_names.append(action["name"])
+		action_counts.append(action["count"])
+	
+	nums = [i+0.5 for i in range(len(action_names))]
+	
+	p = figure(title="Action counts", y_axis_label="Use count", x_range=action_names)
+	p.vbar(x=nums, top=action_counts, width=0.5, bottom=0, color="red")
+	
+	output
