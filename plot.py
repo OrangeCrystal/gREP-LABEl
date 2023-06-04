@@ -27,4 +27,13 @@ def show_actions(actions):
 	p = figure(title="Action counts", y_axis_label="Use count", x_range=action_names)
 	p.vbar(x=nums, top=action_counts, width=0.5, bottom=0, color="red")
 	
-	output
+	output_file("plot2.html")
+	show(p)
+
+desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
+
+with open(desktop+"/RL_stats_result.json") as f:
+	json_data = json.load(f)
+
+show_iterations(json_data["iterations"])
+show_actions(json_data["actions"])
